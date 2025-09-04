@@ -1,0 +1,50 @@
+body {
+
+    background-image: url('imagens/background.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: contain;
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.Megabutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #f8e300;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.Megabutton:hover {
+    background-color: #1aff00;
+}
+
+button:hover {
+    background-color: #45a049;
+}
